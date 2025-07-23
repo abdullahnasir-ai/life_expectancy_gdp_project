@@ -15,3 +15,7 @@ model = sm.OLS.from_formula("life_expectancy ~ GDP", data = df).fit()
 fitted_values = model.predict(df)
 residuals = df.life_expectancy - fitted_values
 
+plt.hist(residuals)
+plt.show()
+plt.clf()
+# This histogram of the residuals comes out left-skewed which indicates that it is not distributed normally and therefore linear regression is not a good way to model life expectancy.
