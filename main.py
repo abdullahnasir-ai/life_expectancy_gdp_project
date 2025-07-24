@@ -17,8 +17,6 @@ plt.figure(figsize = (10, 8))
 for i in range(len(df['Country'].unique())):
     country = df['Country'].unique()[i]
     plt.subplot(2, 3, i + 1)
-    p.timegdp(country)
-    plt.subplots_adjust(wspace = 0.3, hspace = 0.3)
     p.lifegdp(country, colors[i % len(colors)])
     plt.subplots_adjust(wspace = 0.4, hspace = 0.4)
 plt.show()
