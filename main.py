@@ -10,6 +10,7 @@ for i in range(len(df['Country'].unique())):
     plt.subplot(2, 3, i + 1)
     p.timegdp(country, colors[i % len(colors)])
     plt.subplots_adjust(wspace = 0.4, hspace = 0.4)
+plt.savefig('timegdp.png')
 plt.show()
 plt.clf()
 
@@ -19,6 +20,7 @@ for i in range(len(df['Country'].unique())):
     plt.subplot(2, 3, i + 1)
     p.lifegdp(country, colors[i % len(colors)])
     plt.subplots_adjust(wspace = 0.4, hspace = 0.4)
+plt.savefig('lifegdp.png')
 plt.show()
 plt.clf()
 
