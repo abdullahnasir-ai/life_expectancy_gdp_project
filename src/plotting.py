@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from data_loader import df
+from src.data_loader import df
 
 def timegdp(country):
     df_country = df[df['Country'] == country]
