@@ -17,3 +17,7 @@ plt.hist(residuals)
 plt.show()
 plt.clf()
 # This histogram of the residuals comes out left-skewed which indicates that it is not distributed normally and therefore linear regression is not a good way to model life expectancy.
+
+print(df.describe())
+# Life expectancy has an average of 72.79 across all years and countries with a minimum life expectancy of 44.4 and a maximum of 81.
+# GDP has a mean of 38.8 trillion USD with a minimum of 44 billion USD and a maximum of 181 trillion USD across all countries and years.
