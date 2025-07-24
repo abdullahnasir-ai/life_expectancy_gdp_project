@@ -89,7 +89,7 @@ life_expectancy_gdp_project/
   Diagnostic plots assessing regression assumptions like normality.
 
 - **📝 Blog Summary**  
-  Final written analysis and reflection on `https://medium.com/@abdullah.nasir1905/does-wealth-equal-health-e33ffb4806af`, including what was learned, key findings, and whether the results matched expectations.
+  Final written analysis and reflection on [Blog Post](https://medium.com/@abdullah.nasir1905/does-wealth-equal-health-e33ffb4806af), including what was learned, key findings, and whether the results matched expectations.
 
 ---
 
